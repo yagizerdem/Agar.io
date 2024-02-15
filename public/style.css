@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+}
+canvas{
+    border: 1px solid #fff;
+    position: fixed;
+}
+
+.start{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+}
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+hr{
+    width: 80%;
+    display:block;
+    margin: 10px auto;
+}
+ul{
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+ul > li{
+    margin: 10px 0;
+    font-weight: bolder;
+}
+input{
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    display: block;
+    margin: 20px auto;
+}
+.startButton{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+.endMenu{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    opacity: 0.4;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+}
+.die{
+    display: block;
+    text-align: center;
+}
+.play-again{
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    background-color: rgb(202, 149, 149);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;    
+}
